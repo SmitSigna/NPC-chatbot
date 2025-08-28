@@ -19,12 +19,6 @@ public class TPPcamera : MonoBehaviour
         lookAction = playerMap.FindAction("Look");
     }
 
-    void Start()
-    {
-        //Cursor.lockState = CursorLockMode.Locked; 
-       // Cursor.visible = false;
-    }
-
     private void OnEnable() => lookAction.Enable();
     private void OnDisable() => lookAction.Disable();
 
