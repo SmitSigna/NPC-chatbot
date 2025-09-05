@@ -13,7 +13,7 @@ public class characterMovement : MonoBehaviour
     private CharacterController controller;
     private InputAction moveAction;
     private InputAction jumpAction;
-    
+
 
     private Vector3 velocity;
 
